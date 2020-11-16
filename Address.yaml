@@ -1,0 +1,33 @@
+type: object
+required:
+  - city
+  - country
+properties:
+  address1:
+    type: string
+    example: 1234 Tradelens Ave
+    description: The first line of the street address.
+  address2:
+    type: string
+    example: Suite 1A
+    description: The second line of the street address.
+  city:
+    type: string
+    example: Raleigh
+    description: The name of the city.
+  country:
+    type: string
+    example: US
+    description: >-
+      The country identification provided in the 2 Alpha ISO 3166 country code
+      standard. The country codes are available in the Platform Constants API
+  stateProvince:
+    type: string
+    example: NC
+    description: "The province or state identification, provided in the ISO 3166-2 standard."
+  zipPostal:
+    type: string
+    example: 27709-2195
+    description: >-
+      The zip or postal code used to identify a geographical area within a
+      country/region.

@@ -1,0 +1,11 @@
+type: object
+properties:
+  reference:
+    type: string
+    example: myReference
+    description: Shipment Reference
+  type:
+    type: string
+    example: proformaInvoiceNumber
+    description: Shipment Reference Type
+title: References

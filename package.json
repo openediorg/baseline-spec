@@ -1,0 +1,14 @@
+{
+  "name": "baseline-spec",
+  "version": "0.0.0",
+  "description": "baseline edi spec yaml files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yaml": "^1.10.0"
+  }
+}
